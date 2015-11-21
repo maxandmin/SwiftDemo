@@ -12,6 +12,8 @@
 		84669C421BFE21D200FAA5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84669C401BFE21D200FAA5BE /* Main.storyboard */; };
 		84669C441BFE21D200FAA5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84669C431BFE21D200FAA5BE /* Assets.xcassets */; };
 		84669C471BFE21D200FAA5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84669C451BFE21D200FAA5BE /* LaunchScreen.storyboard */; };
+		84A953BC1C002E4200D48C49 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A953BA1C002E4200D48C49 /* ActivitiesViewController.swift */; };
+		84A953BD1C002E4200D48C49 /* NewActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A953BB1C002E4200D48C49 /* NewActivitiesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		84669C431BFE21D200FAA5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84669C461BFE21D200FAA5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84669C481BFE21D200FAA5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A953BA1C002E4200D48C49 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		84A953BB1C002E4200D48C49 /* NewActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewActivitiesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		84669C3B1BFE21D200FAA5BE /* swiftdemo */ = {
 			isa = PBXGroup;
 			children = (
+				84A953BA1C002E4200D48C49 /* ActivitiesViewController.swift */,
+				84A953BB1C002E4200D48C49 /* NewActivitiesViewController.swift */,
 				84669C3C1BFE21D200FAA5BE /* AppDelegate.swift */,
 				84669C3E1BFE21D200FAA5BE /* ViewController.swift */,
 				84669C401BFE21D200FAA5BE /* Main.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84669C3F1BFE21D200FAA5BE /* ViewController.swift in Sources */,
+				84A953BC1C002E4200D48C49 /* ActivitiesViewController.swift in Sources */,
+				84A953BD1C002E4200D48C49 /* NewActivitiesViewController.swift in Sources */,
 				84669C3D1BFE21D200FAA5BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +256,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = swiftdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxin.swiftdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = swiftdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxin.swiftdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +294,7 @@
 				84669C4D1BFE21D200FAA5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
