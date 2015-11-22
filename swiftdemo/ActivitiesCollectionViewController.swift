@@ -30,7 +30,7 @@ class ActivitiesCollectionViewController: UIViewController,UICollectionViewDeleg
         
         let flowLayout = UICollectionViewFlowLayout()
         
-        flowLayout.itemSize = CGSizeMake(160, 160)
+        flowLayout.itemSize = CGSizeMake(110, 110)
         
         flowLayout.scrollDirection = UICollectionViewScrollDirection.Vertical//设置垂直显示
         
@@ -38,7 +38,7 @@ class ActivitiesCollectionViewController: UIViewController,UICollectionViewDeleg
         
         flowLayout.minimumLineSpacing = 10;//每个相邻layout的上下
         
-        flowLayout.minimumInteritemSpacing = 5;//每个相邻layout的左右
+        flowLayout.minimumInteritemSpacing = 10;//每个相邻layout的左右
         
         flowLayout.headerReferenceSize = CGSizeMake(0, 0);
         CollectionView = UICollectionView(frame: CGRectMake(0, 0, self.view.bounds.width, self.view.bounds.height), collectionViewLayout: flowLayout)

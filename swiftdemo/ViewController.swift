@@ -25,6 +25,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         self.navigationItem.rightBarButtonItem = nextItem;
         
         self.maintebleview();
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
