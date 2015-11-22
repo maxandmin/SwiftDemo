@@ -5,6 +5,9 @@
 //  Created by maxin on 15/11/20.
 //  Copyright © 2015年 maxin. All rights reserved.
 //
+
+ /// 对于初级控件的使用
+
 import UIKit
 import Foundation
 

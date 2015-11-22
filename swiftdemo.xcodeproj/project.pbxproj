@@ -14,6 +14,13 @@
 		84669C471BFE21D200FAA5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84669C451BFE21D200FAA5BE /* LaunchScreen.storyboard */; };
 		84A953BC1C002E4200D48C49 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A953BA1C002E4200D48C49 /* ActivitiesViewController.swift */; };
 		84A953BD1C002E4200D48C49 /* NewActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A953BB1C002E4200D48C49 /* NewActivitiesViewController.swift */; };
+		84A953C21C00452B00D48C49 /* ActivitiesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A953C11C00452B00D48C49 /* ActivitiesCell.xib */; };
+		84A953C41C0047C800D48C49 /* ActivitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A953C31C0047C800D48C49 /* ActivitiesCell.swift */; };
+		84A953C61C004B6C00D48C49 /* ActivitiesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A953C51C004B6C00D48C49 /* ActivitiesSection.swift */; };
+		84A953C81C004B8000D48C49 /* ActivitiesSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A953C71C004B8000D48C49 /* ActivitiesSection.xib */; };
+		84A953CA1C0055EE00D48C49 /* ActivitiesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A953C91C0055EE00D48C49 /* ActivitiesCollectionViewController.swift */; };
+		84A953CC1C0184B000D48C49 /* FloorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A953CB1C0184B000D48C49 /* FloorCollectionViewCell.swift */; };
+		84A953CE1C01882600D48C49 /* FloorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A953CD1C01882600D48C49 /* FloorCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		84669C481BFE21D200FAA5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A953BA1C002E4200D48C49 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
 		84A953BB1C002E4200D48C49 /* NewActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewActivitiesViewController.swift; sourceTree = "<group>"; };
+		84A953C11C00452B00D48C49 /* ActivitiesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesCell.xib; sourceTree = "<group>"; };
+		84A953C31C0047C800D48C49 /* ActivitiesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesCell.swift; sourceTree = "<group>"; };
+		84A953C51C004B6C00D48C49 /* ActivitiesSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesSection.swift; sourceTree = "<group>"; };
+		84A953C71C004B8000D48C49 /* ActivitiesSection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesSection.xib; sourceTree = "<group>"; };
+		84A953C91C0055EE00D48C49 /* ActivitiesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesCollectionViewController.swift; sourceTree = "<group>"; };
+		84A953CB1C0184B000D48C49 /* FloorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorCollectionViewCell.swift; sourceTree = "<group>"; };
+		84A953CD1C01882600D48C49 /* FloorCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloorCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,9 @@
 		84669C3B1BFE21D200FAA5BE /* swiftdemo */ = {
 			isa = PBXGroup;
 			children = (
+				84A953BE1C0044C100D48C49 /* ActivitiesCell */,
 				84A953BA1C002E4200D48C49 /* ActivitiesViewController.swift */,
+				84A953C91C0055EE00D48C49 /* ActivitiesCollectionViewController.swift */,
 				84A953BB1C002E4200D48C49 /* NewActivitiesViewController.swift */,
 				84669C3C1BFE21D200FAA5BE /* AppDelegate.swift */,
 				84669C3E1BFE21D200FAA5BE /* ViewController.swift */,
@@ -68,6 +84,19 @@
 				84669C481BFE21D200FAA5BE /* Info.plist */,
 			);
 			path = swiftdemo;
+			sourceTree = "<group>";
+		};
+		84A953BE1C0044C100D48C49 /* ActivitiesCell */ = {
+			isa = PBXGroup;
+			children = (
+				84A953CB1C0184B000D48C49 /* FloorCollectionViewCell.swift */,
+				84A953C11C00452B00D48C49 /* ActivitiesCell.xib */,
+				84A953C31C0047C800D48C49 /* ActivitiesCell.swift */,
+				84A953C51C004B6C00D48C49 /* ActivitiesSection.swift */,
+				84A953C71C004B8000D48C49 /* ActivitiesSection.xib */,
+				84A953CD1C01882600D48C49 /* FloorCollectionViewCell.xib */,
+			);
+			path = ActivitiesCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A953C21C00452B00D48C49 /* ActivitiesCell.xib in Resources */,
 				84669C471BFE21D200FAA5BE /* LaunchScreen.storyboard in Resources */,
 				84669C441BFE21D200FAA5BE /* Assets.xcassets in Resources */,
+				84A953CE1C01882600D48C49 /* FloorCollectionViewCell.xib in Resources */,
 				84669C421BFE21D200FAA5BE /* Main.storyboard in Resources */,
+				84A953C81C004B8000D48C49 /* ActivitiesSection.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84669C3F1BFE21D200FAA5BE /* ViewController.swift in Sources */,
+				84A953CC1C0184B000D48C49 /* FloorCollectionViewCell.swift in Sources */,
 				84A953BC1C002E4200D48C49 /* ActivitiesViewController.swift in Sources */,
+				84A953CA1C0055EE00D48C49 /* ActivitiesCollectionViewController.swift in Sources */,
+				84A953C61C004B6C00D48C49 /* ActivitiesSection.swift in Sources */,
+				84A953C41C0047C800D48C49 /* ActivitiesCell.swift in Sources */,
 				84A953BD1C002E4200D48C49 /* NewActivitiesViewController.swift in Sources */,
 				84669C3D1BFE21D200FAA5BE /* AppDelegate.swift in Sources */,
 			);

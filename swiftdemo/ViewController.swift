@@ -20,6 +20,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         self.title = "UI测试";
         self.items = ["UILabel", "UIButton", "UIImageView", "UISlider", "UIWebView", "UISegmentedControl", "UISwitch", "UITextField", "UIScrollView", "UISearchBar", "UIPageControl", "UIDatePicker", "UIPickerView", "UIProgressView", "UITextView", "UIActionSheet", "UIActivityIndicatorView"]
         
+        let nextItem=UIBarButtonItem(title:"常用布局控件",style:.Plain,target:self,action:"next");
+        //  添加到到导航栏上
+        self.navigationItem.rightBarButtonItem = nextItem;
+        
         self.maintebleview();
     }
 
@@ -27,6 +31,15 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func next(){
+    
+        let NewActivies = NewActivitiesViewController()
+        self.navigationController!.pushViewController(NewActivies, animated: true)
+        
+    
+    }
+    
 
     func maintebleview(){
     
